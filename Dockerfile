@@ -14,5 +14,5 @@ RUN deps='\
      && sudo apt update -qq \
      && sudo apt install -y -qq --no-install-recommends $deps \
      && sudo rm -rf /var/lib/apt/lists/* \
-     && sudo gem install bundler --no-document
+     && sudo gem install bundler hub --no-document
 

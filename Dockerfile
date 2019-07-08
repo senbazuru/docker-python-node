@@ -1,4 +1,4 @@
-FROM circleci/python:3.6.1
+FROM circleci/python:3.6.5
 MAINTAINER senbazuru
 
 RUN deps='\
